@@ -15,7 +15,7 @@ jobs:
       matrix:
         # Replace the following with the keyboard you want to setup.  
         # Only 1 keyboard is supported.  For more keyboards, copy and rename this file.
-        keyboard: ['ErgoTravel']
+        keyboard: ['sofle']
         # Keymap of the keyboard to setup.  Multiple keymaps can be setup following this example: ['default','jpconstantineau']
         keymap: ['default']
         # keyboard configuration. Multiple configs can be setup following this example: ['left','right']
@@ -28,7 +28,7 @@ jobs:
         # bluemacro_nrf52840
         # nice_nano
         # pca10056 - use this for all other nRF52840 based boards not listed above (needs Arduino_nRF52_Bootloader)
-        compile_with: ['bluemicro_nrf52840']
+        compile_with: ['nice_nano']
 
     # you shouldn't need to edit anything below
     steps:
